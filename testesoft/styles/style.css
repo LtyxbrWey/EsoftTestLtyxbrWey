@@ -1,0 +1,77 @@
+
+
+#loft
+{
+	width: 95px;
+	height: 95px;
+	position: relative;
+	top: -100px;
+	left: -20px;
+	overflow: hidden;
+	
+}
+
+#loft:after
+{
+	content: "";
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: #efd;
+	transform: rotate(45deg);
+	top: 75px;
+	left: 25px;
+	
+}
+
+#floor
+{
+	position: relative;
+	width: 54px;
+	height: 49px;
+	background: #efd;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	border: 1px solid #aaaba9;
+	top: -102px;
+	left: -1px;
+	z-index: -1
+}
+
+#house
+{
+	position: absolute;
+	left: 35%;
+	top: 50.05%
+}
+
+
+
+#window
+{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	left: 16px;
+	top: 10px;
+	background: #45aaff;
+	border: 1px solid #000;
+	z-index: 3
+}
+
+#sky,#ground
+{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	background: #11baed;
+	z-index: -2;
+	margin: -8px
+}
+
+#ground
+{
+	top: 56%;
+	height: 44%;
+	background: #00c77e;
+	box-shadow: 0 0 10px green
+}
